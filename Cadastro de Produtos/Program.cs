@@ -23,17 +23,6 @@ namespace CadastroProduto
             public double MargemLucro { get; set; }
         }
 
-        static void ClearConsole()
-        {
-            Console.SetCursorPosition(0, 0);
-            for (int i = 0; i < Console.WindowHeight; i++)
-            {
-                Console.WriteLine(new string(' ', Console.WindowWidth));
-            }
-
-            Console.SetCursorPosition(0, 0);
-        }
-
         static void Main(string[] args)
         {
             Console.ResetColor();
