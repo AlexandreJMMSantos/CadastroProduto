@@ -25,6 +25,7 @@ namespace CadastroProduto
 
         static void Main(string[] args)
         {
+            Console.Clear();
             Console.ResetColor();
             List<Produto> produtos = new List<Produto>();
 
