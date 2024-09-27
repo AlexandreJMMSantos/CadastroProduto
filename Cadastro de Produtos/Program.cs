@@ -30,8 +30,6 @@ namespace CadastroProduto
 
             while (true)
             {
-                ClearConsole();
-
                 Console.WriteLine(@"
                      ____ ____ ____ ____ ____ ____ ____ ____ 
                     ||P |||r |||o |||d |||u |||t |||o |||s ||
