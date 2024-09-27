@@ -214,6 +214,7 @@ namespace CadastroProduto
                 Console.Write(Environment.NewLine + "Pressione ENTER para adicionar outro produto... ");
 
                 string enter = Console.ReadLine();
+                Console.Clear();
             }
         }
 
